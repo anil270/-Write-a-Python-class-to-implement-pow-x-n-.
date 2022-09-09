@@ -2,9 +2,9 @@
 
 
 class python:
-    def power(x,y):
-        z=pow(x,y)
+    def power(x,n):
+        z=pow(x,n)
         return z
 x=int(input("Enter the Number :"))
-y=int(input("Enter the exponent :"))
-print(python.power(x,y))
+n=int(input("Enter the exponent :"))
+print(python.power(x,n))
